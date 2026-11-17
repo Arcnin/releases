@@ -1,0 +1,12 @@
+{
+  "name": "arcnin-public-information",
+  "version": "1.0.0",
+  "description": "Read Arcnin public product information, pricing, and installer URLs",
+  "homepage": "https://arcnin.com/docs",
+  "repository": "github:Arcnin/releases",
+  "type": "module",
+  "exports": "./client/index.mjs",
+  "bin": { "arcnin-info": "./client/cli.mjs" },
+  "engines": { "node": ">=18" },
+  "files": ["client"]
+}

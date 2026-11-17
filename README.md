@@ -17,3 +17,23 @@ Macs need macOS 13 or later. Every version is listed under [Releases](https://gi
 Preview builds are not yet signed with a publisher certificate, so macOS and Windows show a warning the first time you open them. Signed installers arrive with the beta. If you would rather wait for those, that is a perfectly sensible choice.
 
 Each release lists SHA-256 checksums so you can check that a download arrived intact.
+
+## Arcnin API, MCP server and CLI
+
+Arcnin provides AI agent security for Mac and Windows. Its Claude Code guard checks tool calls locally. The public information service lets developers look up installer URLs, pricing and supported platforms without accessing a desktop installation. [Arcnin website](https://arcnin.com/) · [Arcnin API documentation](https://arcnin.com/docs) · [OpenAPI specification](https://arcnin.com/openapi.json)
+
+To connect an MCP client, select Streamable HTTP and enter `https://arcnin.com/mcp`. The server accepts anonymous requests. Use `get_downloads` to retrieve the current version and official installers. [Arcnin MCP server card](https://arcnin.com/.well-known/mcp/server-card.json)
+
+To use the CLI with Node.js 18 or later, install the client from this repository and request the installer list.
+
+```sh
+npm install github:Arcnin/releases
+npx arcnin-info downloads
+```
+
+The same package exposes a JavaScript client for the public API.
+
+```js
+import { getArcninInformation } from 'arcnin-public-information';
+const { installers } = await getArcninInformation('downloads');
+```
