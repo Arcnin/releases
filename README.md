@@ -37,3 +37,9 @@ The same package exposes a JavaScript client for the public API.
 import { getArcninInformation } from 'arcnin-public-information';
 const { installers } = await getArcninInformation('downloads');
 ```
+
+Agents can use the [Arcnin public information skill](skills/arcnin-public-information/SKILL.md) to match an installer to a computer, check plan availability, or look up live guard support.
+
+```sh
+npx skills add Arcnin/releases --skill arcnin-public-information
+```
