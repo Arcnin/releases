@@ -6,9 +6,9 @@ Installers for **Rexi**, a friendly guard for AI agents. Rexi sits on your Mac o
 
 | Your computer | Download |
 | --- | --- |
-| Mac with Apple silicon (M1 or newer) | [Rexi-0.1.2-arm64.dmg](https://github.com/RexiHQ/releases/releases/download/v0.1.2/Rexi-0.1.2-arm64.dmg) |
-| Mac with an Intel chip | [Rexi-0.1.2.dmg](https://github.com/RexiHQ/releases/releases/download/v0.1.2/Rexi-0.1.2.dmg) |
-| Windows 10 or 11, 64-bit | [Rexi-Setup-0.1.2.exe](https://github.com/RexiHQ/releases/releases/download/v0.1.2/Rexi-Setup-0.1.2.exe) |
+| Mac with Apple silicon (M1 or newer) | [Rexi-0.1.3-arm64.dmg](https://github.com/RexiHQ/releases/releases/download/v0.1.3/Rexi-0.1.3-arm64.dmg) |
+| Mac with an Intel chip | [Rexi-0.1.3.dmg](https://github.com/RexiHQ/releases/releases/download/v0.1.3/Rexi-0.1.3.dmg) |
+| Windows 10 or 11, 64-bit | [Rexi-Setup-0.1.3.exe](https://github.com/RexiHQ/releases/releases/download/v0.1.3/Rexi-Setup-0.1.3.exe) |
 
 Macs need macOS 13 or later. Every version is listed under [Releases](https://github.com/RexiHQ/releases/releases).
 
